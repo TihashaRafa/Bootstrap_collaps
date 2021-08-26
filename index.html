@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-5</title>
+    
+  <link rel="stylesheet" href="assests/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assests/css/style.css">
+
+</head>
+<body>
+
+ <a data-bs-toggle="collapse" class="btn btn-sm btn-primary" href="#text">Click</a>
+ <div id="text" class="collapse">
+   <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque eum nostrum atque esse vero temporibus pariatur illum veniam libero incidunt cumque voluptate vitae qui possimus eaque corporis odit minima in, obcaecati dolores officia sunt explicabo dolorem. Illum dolorum suscipit sunt excepturi obcaecati quo optio non cupiditate eveniet praesentium, hic ex reiciendis consectetur quia libero laborum quod rerum dolorem, similique aliquam veritatis. Nesciunt perferendis impedit, magni hic quaerat mollitia nemo culpa quo voluptas tempora accusamus itaque nulla id molestias quis, consequuntur, architecto ratione quae autem! Magni, ipsa possimus amet nam aperiam, quod quam architecto voluptatem dolore ut incidunt. Eum, itaque deleniti?</p>
+ </div>
+
+
+ <!-- card and collapse -->
+ 
+ <div class="tisha" id="our-acc">
+
+  <div class="card">
+    <div class="card-header">
+      <button class="accordion-button">
+      <h4 data-bs-toggle="collapse" data-bs-target="#rafa">Title-1</h4>
+    </button>
+    
+    </div>
+ 
+    <div id="rafa" class="collapse" data-bs-parpent="#our-acc">
+      <div class="card-body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, itaque.</p>
+     
+      </div>
+    </div>
+
+  </div>
+
+
+      <div class="card">
+        <div class="card-header">
+          <h4 data-bs-toggle="collapse" data-bs-target="#rafa-1">Title-2</h4>
+        </div>
+     
+        <div id="rafa-1" class="collapse" data-bs-parent="#our-acc">
+          <div class="card-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, itaque.</p>
+          </div>
+ 
+        </div>
+ 
+ </div>
+ </div>
+
+ 
+
+<script src="assests/js/bootstrap.bundle.min.js"></script>
+<script src="assests/js/script.js"></script>
+
+  
+</body>
+</html>
